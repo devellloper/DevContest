@@ -49,6 +49,7 @@
     <Compile Include="Class\Loger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks1_50\Task4.cs" />
     <Compile Include="Tasks1_50\Task3.cs" />
     <Compile Include="Tasks1_50\Task2.cs" />
     <Compile Include="Tasks1_50\Task1.cs" />

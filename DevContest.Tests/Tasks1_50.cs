@@ -74,6 +74,35 @@ namespace DevContest.Tests
 
 		#endregion
 
+		#region Task #00004
+
+		[TestMethod]
+		[TestCategory("Задачи для начинающих")]
+		public void TestTask4()
+		{
+			var t1 = Task4_Input.Create(5);
+			Assert.AreEqual(new Task4().Exe(t1, 1).Result, 594u);
+			Assert.AreEqual(new Task4().Exe(t1, 2).Result, 594u);
+
+			var t2 = Task4_Input.Create(2);
+			Assert.AreEqual(new Task4().Exe(t2, 1).Result, 297u);
+			Assert.AreEqual(new Task4().Exe(t2, 2).Result, 297u);
+
+			var t3 = Task4_Input.Create(7);
+			Assert.AreEqual(new Task4().Exe(t3, 1).Result, 792u);
+			Assert.AreEqual(new Task4().Exe(t3, 2).Result, 792u);
+
+			var t4 = Task4_Input.Create(9);
+			Assert.AreEqual(new Task4().Exe(t4, 1).Result, 990u);
+			Assert.AreEqual(new Task4().Exe(t4, 2).Result, 990u);
+
+			var t5 = Task4_Input.Create(3);
+			Assert.AreEqual(new Task4().Exe(t5, 1).Result, 396u);
+			Assert.AreEqual(new Task4().Exe(t5, 2).Result, 396u);
+		}
+
+		#endregion
+
 	}
 
 }

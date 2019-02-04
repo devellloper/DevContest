@@ -10,7 +10,7 @@ namespace DevContest.Tasks1_50
 	public class Task3 : ITask<Task3_Input, Task3_Result>
 	{
 
-		public Task3_Result Exe(Task3_Input input)
+		public Task3_Result Exe(Task3_Input input, int method = 1)
 		{
 			if (!input.IsValid())
 				throw new NotValidInputException();

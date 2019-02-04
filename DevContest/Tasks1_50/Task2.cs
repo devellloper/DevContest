@@ -8,7 +8,7 @@
 	public class Task2 : ITask<Task2_Input, Task2_Result>
 	{
 
-		public Task2_Result Exe(Task2_Input input)
+		public Task2_Result Exe(Task2_Input input, int method = 1)
 		{
 			if (!input.IsValid())
 				throw new NotValidInputException();
@@ -39,7 +39,7 @@
 
 		public bool IsValid()
 		{
-			if (this.N < 1)
+			if (this.N == 0)
 				return false;
 
 			return true;
