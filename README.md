@@ -11,4 +11,5 @@
 |00001|[A+B](http://acmp.ru/index.asp?main=task&id_task=1)|Задачи для начинающих|1|04.02.2019|
 |00002|[Сумма](http://acmp.ru/index.asp?main=task&id_task=2)|Целочисленная арифметика|1|04.02.2019|
 |00003|[Пятью пять - двадцать пять!](http://acmp.ru/index.asp?main=task&id_task=3)|Целочисленная арифметика|1|04.02.2019|
+|00004|[Игра](http://acmp.ru/index.asp?main=task&id_task=4)|Задачи для начинающих|2|04.02.2019|
 
